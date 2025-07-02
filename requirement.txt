@@ -1,1 +1,2 @@
-echo "flask\nyt-dlp" > requirements.txt
+echo "flask" > requirements.txt
+echo "yt-dlp" >> requirements.txt

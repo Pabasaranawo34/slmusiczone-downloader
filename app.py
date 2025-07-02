@@ -1,4 +1,13 @@
-from flask import Flask, request, jsonify
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "SL Music Zone Downloader is Live!"
+
+if __name__ == '__main__':
+    app.run()from flask import Flask, request, jsonify
 import yt_dlp
 
 app = Flask(__name__)

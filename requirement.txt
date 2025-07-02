@@ -1,0 +1,1 @@
+echo "flask\nyt-dlp" > requirements.txt
